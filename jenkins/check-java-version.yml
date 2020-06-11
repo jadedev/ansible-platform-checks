@@ -9,4 +9,4 @@
 
   - assert:
       that: 
-        - java_version.stdout is version('1.7', '>=') 
+        - java_version.stdout is version('1.9', '>=') 
