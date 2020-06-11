@@ -8,6 +8,5 @@
     register: java_version
 
   - assert:
-    become: true
       that: 
         - java_version.stdout | version_compare('1.7', '>=') 
